@@ -1,0 +1,97 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #444;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus {
+  border-color: #6a5acd;
+  outline: none;
+}
+
+
+.radio-group,
+.checkbox-group {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.radio-group label,
+.checkbox-group label {
+  font-weight: 500;
+  color: #555;
+}
+
+button[type="submit"] {
+  margin-top: 25px;
+  padding: 12px 20px;
+  background: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background: #483d8b;
+}
+
+button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Upload component styling (optional, if needed) */
+form .upload-wrapper {
+  margin-top: 20px;
+}

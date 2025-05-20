@@ -1,0 +1,51 @@
+.display-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.display-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.display-container img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+.display-container p {
+  font-size: 16px;
+  color: #444;
+  margin: 10px 0;
+}
+
+.display-container strong {
+  color: #000;
+}
+
+.delete-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #d62828;
+}
+
